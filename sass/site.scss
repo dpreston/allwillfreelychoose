@@ -1,0 +1,70 @@
+// THEMING
+
+// Starry Oak
+// https://www.colourlovers.com/palette/85232/Starry_Night
+
+$black: #000000;
+$stormy-skies: #7890A8;
+$strange-aeons: #304878;
+$nobility: #181848;
+$paste: #F0A818;
+
+
+// Autumn Oak
+// https://www.colourlovers.com/palette/29411/Autumn_Oak
+
+$fourfourfour: #444444;
+$well-behind: #FCF7D1;
+$placid: #A9A17A;
+$autumn-orange: #B52C00;
+$cayenne: #8C0005;
+
+
+#layout {
+	padding: 0;
+}
+
+.sidebar {
+	height: 100vh;
+
+	background: url('img/dark-canvas.gif');
+	color: #FFFFFF;
+
+	text-align: right;
+	text-shadow: 1px 1px 2px black;
+	.inner {
+		margin: 8em 2em 0;
+	}
+
+	a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	ul {
+		list-style:: none;
+
+		li {
+
+		}
+	}
+}
+
+
+.title {
+	color: #FFFFFF;
+}
+
+.content {
+	background: #FFFDEE;
+
+	.inner {
+		padding: 20px;
+	}
+}
+
+
+
+
+
+
