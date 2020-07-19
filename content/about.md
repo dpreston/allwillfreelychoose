@@ -1,5 +1,5 @@
 +++
-title = "About the book"
+title = "About the site"
 date = 2020-07-12
 +++
 
