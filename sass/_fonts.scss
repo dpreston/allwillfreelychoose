@@ -1,0 +1,57 @@
+// headings
+@font-face {
+	font-family: LibreBaskerville;
+	font-style: normal;
+	font-weight: normal;
+	src: url("font/LibreBaskerville-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: LibreBaskerville;
+	font-style: normal;
+	font-weight: bold;
+	src: url("font/LibreBaskerville-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: LibreBaskerville;
+	font-style: italic;
+	font-weight: normal;
+	src: url("font/LibreBaskerville-Italic.otf") format("opentype");
+}
+
+// body text
+@font-face {
+	font-family: SourceSansPro;
+	font-style: normal;
+	font-weight: normal;
+	src: url("font/SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: SourceSansPro;
+	font-style: italic;
+	font-weight: normal;
+	src: url("font/SourceSansPro-It.otf") format("opentype");
+}
+@font-face {
+	font-family: SourceSansPro;
+	font-style: normal;
+	font-weight: bold;
+	src: url("font/SourceSansPro-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: SourceSansPro;
+	font-style: italic;
+	font-weight: bold;
+	src: url("font/SourceSansPro-BoldIt.otf") format("opentype");
+}
+
+
+body {
+    font-family: SourceSansPro, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+h1, h2, h3 {
+    font-family: LibreBaskerville, serif;
+    line-height: 1.2;
+}

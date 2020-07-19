@@ -8,4 +8,6 @@
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
+
+{{ section.content | safe }}
 {% endblock content %}
