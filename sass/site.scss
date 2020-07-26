@@ -2,6 +2,9 @@
 @import 'fonts';
 @import 'theme';
 
+* {
+    transition: width 0.5s;
+}
 
 #layout {
     display: flex;
@@ -13,6 +16,7 @@
 #collapse-left {
     flex: 1 1 auto;
 }
+
 
 #sidebar {
     padding: 8em 2em 0;
@@ -43,6 +47,11 @@
     }
 }
 
+@media (max-width: 1280px) {
+    #sidebar {
+        width: 10em;
+    }
+}
 
 
 #content {
