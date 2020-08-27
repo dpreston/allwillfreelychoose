@@ -1,47 +1,54 @@
 // headings
 @font-face {
-	font-family: LibreBaskerville;
-	font-style: normal;
-	font-weight: normal;
-	src: url("font/LibreBaskerville-Regular.otf") format("opentype");
+    font-family: LibreBaskerville;
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/LibreBaskerville-Regular.woff2") format("woff2"),
+         url("font/LibreBaskerville-Regular.woff") format("woff");
 }
 @font-face {
-	font-family: LibreBaskerville;
-	font-style: normal;
-	font-weight: bold;
-	src: url("font/LibreBaskerville-Bold.otf") format("opentype");
+    font-family: LibreBaskerville;
+    font-style: normal;
+    font-weight: bold;
+    src: url("font/LibreBaskerville-Bold.woff2") format("woff2"),
+         url("font/LibreBaskerville-Bold.woff") format("woff");
 }
 @font-face {
-	font-family: LibreBaskerville;
-	font-style: italic;
-	font-weight: normal;
-	src: url("font/LibreBaskerville-Italic.otf") format("opentype");
+    font-family: LibreBaskerville;
+    font-style: italic;
+    font-weight: normal;
+    src: url("font/LibreBaskerville-Italic.woff2") format("woff2"),
+         url("font/LibreBaskerville-Italic.woff") format("woff");
 }
 
 // body text
 @font-face {
-	font-family: SourceSansPro;
-	font-style: normal;
-	font-weight: normal;
-	src: url("font/SourceSansPro-Regular.otf") format("opentype");
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/SourceSansPro-Regular.woff2") format("woff2"),
+         url("font/SourceSansPro-Regular.woff") format("woff");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-style: italic;
-	font-weight: normal;
-	src: url("font/SourceSansPro-It.otf") format("opentype");
+    font-family: SourceSansPro;
+    font-style: italic;
+    font-weight: normal;
+    src: url("font/SourceSansPro-Italic.woff2") format("woff2"),
+         url("font/SourceSansPro-Italic.woff") format("woff");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-style: normal;
-	font-weight: bold;
-	src: url("font/SourceSansPro-Bold.otf") format("opentype");
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: bold;
+    src: url("font/SourceSansPro-Bold.woff2") format("woff2"),
+         url("font/SourceSansPro-Bold.woff") format("woff");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-style: italic;
-	font-weight: bold;
-	src: url("font/SourceSansPro-BoldIt.otf") format("opentype");
+    font-family: SourceSansPro;
+    font-style: italic;
+    font-weight: bold;
+    src: url("font/SourceSansPro-Bold-Italic.woff2") format("woff2"),
+         url("font/SourceSansPro-Bold-Italic.woff") format("woff");
 }
 
 
